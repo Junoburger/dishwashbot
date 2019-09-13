@@ -1,8 +1,8 @@
-var SlackBot = require('slackbots');
-var request = require("request")
+const SlackBot = require('slackbots');
+const request = require("request")
 // create a bot
 const envKey = process.env.DISHWASH_BOT_TOKEN;
-var bot = new SlackBot({
+const bot = new SlackBot({
   token: envKey,
   name: "DishwashBot"
 })
